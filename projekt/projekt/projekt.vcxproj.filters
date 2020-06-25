@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\fliping">
+      <UniqueIdentifier>{59b877a2-bbf4-4088-b9be-e0e6bb3f1dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\colors_change">
+      <UniqueIdentifier>{d1750067-b3c8-405b-937b-cc96bf5ce6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\undo">
+      <UniqueIdentifier>{fe3d4154-04f9-4316-a419-ff8ec4d84429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\fliping">
+      <UniqueIdentifier>{fbbf5685-8639-406f-8b27-40eac2e3e425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\undo">
+      <UniqueIdentifier>{b4cf1898-2af5-49da-a97e-b54ef28ebf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\colors_change">
+      <UniqueIdentifier>{c2d69bcc-7edb-4ef3-8ffa-ada76e1f209e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\change shadows">
+      <UniqueIdentifier>{4b0ac5d0-16ac-4696-8b10-88152f582459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\change shadows">
+      <UniqueIdentifier>{981c9a9c-39ca-40ef-8a66-85043d5c1d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\face">
+      <UniqueIdentifier>{9722b3ea-99a8-4da1-958d-9283ada35870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\face">
+      <UniqueIdentifier>{013ee448-6d04-4492-b36e-a9c8e85e08b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\rotation">
+      <UniqueIdentifier>{c5b09aa6-3d69-44a0-be83-7b8df7fad127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\rotation">
+      <UniqueIdentifier>{80e8f9d3-abfa-4e80-b7b0-4ec1e18f0dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\histogram">
+      <UniqueIdentifier>{3fb862a3-a08a-4945-b8f7-bfc30f30cc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\histogram">
+      <UniqueIdentifier>{bde74d75-5ed4-4854-bb84-d4414103a202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\spaces">
+      <UniqueIdentifier>{0223d872-61ae-468f-b1d6-d70fd2a0b1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\spaces">
+      <UniqueIdentifier>{1f066352-790e-4254-a9f5-152046582d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\effects">
+      <UniqueIdentifier>{4e377707-2988-4500-a753-bdb6a75db551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\effects">
+      <UniqueIdentifier>{d6a7c786-8443-4410-9c0a-b1a03403a922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GUI">
+      <UniqueIdentifier>{7482c096-b928-4420-bff5-b6fb1269dde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\exceptions">
+      <UniqueIdentifier>{c634e686-8c6d-4046-bf31-0e64342f840f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GUI">
+      <UniqueIdentifier>{9eac65de-5b54-48fc-9c39-0cd4dbf334fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Photo.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipY.cpp">
+      <Filter>Pliki źródłowe\fliping</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipX.cpp">
+      <Filter>Pliki źródłowe\fliping</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipXY.cpp">
+      <Filter>Pliki źródłowe\fliping</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFlip.cpp">
+      <Filter>Pliki źródłowe\fliping</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackWhite.cpp">
+      <Filter>Pliki źródłowe\colors_change</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeColor.cpp">
+      <Filter>Pliki źródłowe\colors_change</Filter>
+    </ClCompile>
+    <ClCompile Include="Sepia.cpp">
+      <Filter>Pliki źródłowe\colors_change</Filter>
+    </ClCompile>
+    <ClCompile Include="Grey.cpp">
+      <Filter>Pliki źródłowe\colors_change</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeUndo.cpp">
+      <Filter>Pliki źródłowe\undo</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoAll.cpp">
+      <Filter>Pliki źródłowe\undo</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoOne.cpp">
+      <Filter>Pliki źródłowe\undo</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeShadows.cpp">
+      <Filter>Pliki źródłowe\change shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="Brightness.cpp">
+      <Filter>Pliki źródłowe\change shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamma.cpp">
+      <Filter>Pliki źródłowe\change shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceDetection.cpp">
+      <Filter>Pliki źródłowe\face</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchFace.cpp">
+      <Filter>Pliki źródłowe\face</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateLeft.cpp">
+      <Filter>Pliki źródłowe\rotation</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateRight.cpp">
+      <Filter>Pliki źródłowe\rotation</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeRotation.cpp">
+      <Filter>Pliki źródłowe\rotation</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeHistogram.cpp">
+      <Filter>Pliki źródłowe\histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramEq.cpp">
+      <Filter>Pliki źródłowe\histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowHistogram.cpp">
+      <Filter>Pliki źródłowe\histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeSpace.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="HSV.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="RBG.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="YCrCb.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="HLS.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="BGR.cpp">
+      <Filter>Pliki źródłowe\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeEffect.cpp">
+      <Filter>Pliki źródłowe\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Erode.cpp">
+      <Filter>Pliki źródłowe\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Pliki źródłowe\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Pliki źródłowe\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Dilate.cpp">
+      <Filter>Pliki źródłowe\effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Photo.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeFlip.h">
+      <Filter>Pliki nagłówkowe\fliping</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipX.h">
+      <Filter>Pliki nagłówkowe\fliping</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipY.h">
+      <Filter>Pliki nagłówkowe\fliping</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipXY.h">
+      <Filter>Pliki nagłówkowe\fliping</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeColor.h">
+      <Filter>Pliki nagłówkowe\colors_change</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackWhite.h">
+      <Filter>Pliki nagłówkowe\colors_change</Filter>
+    </ClInclude>
+    <ClInclude Include="Sepia.h">
+      <Filter>Pliki nagłówkowe\colors_change</Filter>
+    </ClInclude>
+    <ClInclude Include="Grey.h">
+      <Filter>Pliki nagłówkowe\colors_change</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeUndo.h">
+      <Filter>Pliki nagłówkowe\undo</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoAll.h">
+      <Filter>Pliki nagłówkowe\undo</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoOne.h">
+      <Filter>Pliki nagłówkowe\undo</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeShadows.h">
+      <Filter>Pliki nagłówkowe\change shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="Brightness.h">
+      <Filter>Pliki nagłówkowe\change shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamma.h">
+      <Filter>Pliki nagłówkowe\change shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceDetection.h">
+      <Filter>Pliki nagłówkowe\face</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchFace.h">
+      <Filter>Pliki nagłówkowe\face</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateLeft.h">
+      <Filter>Pliki nagłówkowe\rotation</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateRight.h">
+      <Filter>Pliki nagłówkowe\rotation</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeRotation.h">
+      <Filter>Pliki nagłówkowe\rotation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowHistogram.h">
+      <Filter>Pliki nagłówkowe\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeHistogram.h">
+      <Filter>Pliki nagłówkowe\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramEq.h">
+      <Filter>Pliki nagłówkowe\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="HSV.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeSpace.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RBG.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="HLS.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="YCrCb.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="BGR.h">
+      <Filter>Pliki nagłówkowe\spaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Erode.h">
+      <Filter>Pliki nagłówkowe\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeEffect.h">
+      <Filter>Pliki nagłówkowe\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Pliki nagłówkowe\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Pliki nagłówkowe\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Pliki nagłówkowe\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Dilate.h">
+      <Filter>Pliki nagłówkowe\effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
